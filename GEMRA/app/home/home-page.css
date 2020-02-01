@@ -1,0 +1,26 @@
+FlexboxLayout {
+    justify-content: top;
+    align-items: top;
+    background-size: cover;
+}
+
+  StackLayout {
+    width: 400;
+    padding: 10 16;
+    background-color: darkgreen;
+  }
+
+  Button , TextField {
+    margin-bottom: 10;
+  }
+  
+  .btn-primary {
+    background-color: #CB1D00;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  TextField {
+    placeholder-color: blue;
+    color: black;
+  }

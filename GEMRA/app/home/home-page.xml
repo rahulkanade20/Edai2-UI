@@ -1,0 +1,19 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="GeMRA"></Label>
+    </ActionBar>
+    <FlexboxLayout>
+        <StackLayout>
+        <TextField hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+		
+
+		<Button text="Search" />
+
+
+        </StackLayout>
+    </FlexboxLayout>
+    
+</Page>
