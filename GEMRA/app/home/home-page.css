@@ -10,11 +10,16 @@ FlexboxLayout {
     background-color:black;
   }
 
-  Button , TextField {
+  Button , TextField , Label {
     margin-bottom: 1;
   }
 
   TextField {
     placeholder-color:black;
     background-color:white;
+  }
+  
+  Label {
+    placeholder-color: black;
+    background-color: white;
   }

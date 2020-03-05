@@ -5,4 +5,10 @@ function onNavigatingTo(args) {
     page.bindingContext = new HomeViewModel();
 }
 
+function onTap(args) {
+    const button = args.object;
+    alert(`Search tapped`);
+}
+exports.onTap = onTap;
+
 exports.onNavigatingTo = onNavigatingTo;

@@ -3,14 +3,16 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar>
-        <Label text="GeMRA"></Label>
+        <Label text="GeMRA" style="background-color: blue;"></Label>
     </ActionBar>
     <FlexboxLayout>
         <StackLayout>
         <TextField hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 		
 
-		<Button text="Search" />
+		<Button text="Search" tap="onTap" />
+
+        <Label text="search results will be displayed here........." textWrap="true"/>
 
 
         </StackLayout>
