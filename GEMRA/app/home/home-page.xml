@@ -12,9 +12,9 @@
         <TextField id = "search" hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 		
 
-		<Button text="Search" tap="onTap" />
+		<Button text="Search" class="-primary" tap="onTap" />
 
-        <Label id = "result" text="search results will be displayed here........." textWrap="true"/>
+        <TextField id = "result" text="search results will be displayed here........." textWrap="true"/>
 
 
         </StackLayout>
