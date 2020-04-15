@@ -7,12 +7,12 @@
     </ActionBar>
     <FlexboxLayout>
         <StackLayout>
-        <TextField hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField id = "search" hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 		
 
 		<Button text="Search" tap="onTap" />
 
-        <Label text="search results will be displayed here........." textWrap="true"/>
+        <Label id = "result" text="search results will be displayed here........." textWrap="true"/>
 
 
         </StackLayout>
