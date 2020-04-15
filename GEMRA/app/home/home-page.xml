@@ -3,10 +3,12 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar>
-        <Label text="GeMRA" style="background-color: blue;"></Label>
+         <Label text="   GeMRA" style="background-color: Black;"></Label>
     </ActionBar>
     <FlexboxLayout>
+        
         <StackLayout>
+        
         <TextField id = "search" hint="type medicine or illness" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 		
 
@@ -16,6 +18,8 @@
 
 
         </StackLayout>
+        
+        
     </FlexboxLayout>
     
 </Page>
