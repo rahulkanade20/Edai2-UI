@@ -26,7 +26,7 @@ function onTap(args) {
         // Content property of the response is HttpContent
         // The toString method allows you to get the response body as string.
         str = response.content.toString();
-        alert(str);
+        //alert(str);
         if (form) {
             let lbl_result = view.getViewById(form , "result");
             if (lbl_result) {
